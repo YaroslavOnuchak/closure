@@ -1,7 +1,6 @@
 function sequence(startNumber = 0, step = 1) {
     return function () {
         let val = startNumber
-        
         startNumber += step;
         return val;
     }
